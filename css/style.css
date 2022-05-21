@@ -10,3 +10,95 @@ a {
 ul {
 	list-style: none;
 }
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 50px auto 0;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form-block {
+	padding: 10px;
+	background-color: lightblue;
+}
+form {
+	background-color: white;
+}
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+label {
+	font-size: 24px;
+	color: blue;
+	text-transform: capitalize;
+}
+.input-fields input {
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	width: 50%;
+	outline: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: green;
+}
+.input-fields input:focus {
+	/* border: 1px solid red; */
+}
+.input-fields input:hover {
+	width: 70%;
+}
+.input-fields input::placeholder {
+	color: red;
+	font-size: 18px;
+}
+textarea {
+	resize: none;
+	width: 300px;
+	height: 200px;
+	display: block;
+}
+button {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-top: 50px;
+	transition: all 0.3s;
+}
+button:hover {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.input-fields input[required] {
+	color: red;
+}
+/* .required-filed {
+	position: relative;
+	text-align: center;
+}
+.required-filed::after {
+	content: "*";
+	color: red;
+	margin-left: 10px;
+} */
+/* .required-filed::before {
+	content: "";
+	width: 80%;
+	height: 1px;
+	background-color: brown;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+} */

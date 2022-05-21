@@ -11,7 +11,7 @@
 		<!-- facebook meta tags -->
 		<meta
 			property="og:url"
-			content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html"
+			content="https://alinbrg.github.io/front-16--lesson-10/"
 		/>
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="When Great Minds Don’t Think Alike" />
@@ -20,10 +20,110 @@
 			content="How much does culture influence creative thinking?"
 		/>
 		<meta property="og:image" content="img/img.jpg" />
+		<!-- twitter meta tags -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@nytimesbits" />
+		<meta name="twitter:creator" content="@nickbilton" />
+		<meta
+			property="og:url"
+			content="https://alinbrg.github.io/front-16--lesson-10/"
+		/>
+		<meta property="og:title" content="A Twitter for My Sister" />
+		<meta
+			property="og:description"
+			content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling."
+		/>
+		<meta
+			property="og:image"
+			content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg"
+		/>
+
 		<link rel="stylesheet" href="css/style.css" />
 		<title>lesson 10</title>
 	</head>
 	<body>
-		<h1>lesson 10</h1>
+		<div class="container">
+			<h1>Forms and meta tags</h1>
+			<div class="form-block">
+				<form action="" method="">
+					<div class="input-fields">
+						<label for="user-name" class="required-filed">user name</label>
+						<input
+							type="text"
+							id="user-name"
+							placeholder="user name"
+							required
+						/>
+					</div>
+					<div class="input-fields">
+						<label for="user-email">user email</label>
+						<input
+							type="email"
+							id="user-email"
+							placeholder="example@gmail.com"
+						/>
+					</div>
+					<div class="input-fields">
+						<label for="user-id">user id</label>
+						<input type="number" id="user-id" />
+					</div>
+					<div class="input-btns">
+						<h3>choose your hobby</h3>
+						<div>
+							<input type="checkbox" id="dance" />
+							<label for="dance">dance</label>
+						</div>
+						<div>
+							<input type="checkbox" id="sing" />
+							<label for="sing">sing</label>
+						</div>
+						<div>
+							<input type="checkbox" id="coding" />
+							<label for="coding">coding</label>
+						</div>
+					</div>
+					<div class="input-btns">
+						<h3>choose your gender</h3>
+						<div>
+							<input type="radio" id="male" name="gender" />
+							<label for="male">male</label>
+						</div>
+						<div>
+							<input type="radio" id="female" name="gender" />
+							<label for="female">female</label>
+						</div>
+						<div>
+							<input type="radio" id="other" name="gender" />
+							<label for="other">other</label>
+						</div>
+					</div>
+					<div class="input-fields">
+						<label for="password">password</label>
+						<input type="password" id="password" />
+					</div>
+					<div class="input-fields">
+						<label for="file">file</label>
+						<input type="file" id="file" />
+					</div>
+					<div class="input-fields">
+						<label for="url">url</label>
+						<input type="url" id="url" />
+					</div>
+					<div>
+						<label for="user-message"> your message</label>
+						<textarea name="" id="user-message"></textarea>
+					</div>
+					<div>
+						<label for="city">city</label>
+						<select name="" id="city">
+							<option value="tbilisi">tbilisi</option>
+							<option value="batumi">batumi</option>
+							<option value="kutaisi">kutaisi</option>
+						</select>
+					</div>
+					<button>submit</button>
+				</form>
+			</div>
+		</div>
 	</body>
 </html>
